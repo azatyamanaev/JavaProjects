@@ -1,0 +1,172 @@
+= Описание API по курсам
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== Публикация курса
+
+Можно опубликовать курсы со статусом *PUBLISHED*
+
+.request
+
+include::{snippets}/publish_course/http-request.adoc[]
+
+.response
+
+include::{snippets}/publish_course/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/publish_course/response-fields.adoc[]
+
+= Описание API по студентам
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+Можно зачислить абитуриентов или отчисленных студентов
+
+.request
+
+include::{snippets}/enroll_student/http-request.adoc[]
+
+.response
+
+include::{snippets}/enroll_student/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/enroll_student/response-fields.adoc[]
+
+Можно отчислить обучающихся студентов
+
+.request
+
+include::{snippets}/expell_student/http-request.adoc[]
+
+.response
+
+include::{snippets}/expell_student/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/expell_student/response-fields.adoc[]
+
+Можно увеличить стипендию студентам
+
+.request
+
+include::{snippets}/increase_student/http-request.adoc[]
+
+.response
+
+include::{snippets}/increase_student/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/increase_student/response-fields.adoc[]
+
+Можно уменьшить стипендию студентам
+
+.request
+
+include::{snippets}/reduce_student/http-request.adoc[]
+
+.response
+
+include::{snippets}/reduce_student/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/reduce_student/response-fields.adoc[]
+
+Можно лишить студентов стипендии
+
+.request
+
+include::{snippets}/deprive_student/http-request.adoc[]
+
+.response
+
+include::{snippets}/deprive_student/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/deprive_student/response-fields.adoc[]
+
+Можно назначить стипендию студентам
+
+.request
+
+include::{snippets}/give_student/http-request.adoc[]
+
+.response
+
+include::{snippets}/give_student/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/give_student/response-fields.adoc[]
+
+
+= Описание API по преподавателям
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+Можно предложить повышение зарплаты преподавателям
+
+.request
+
+include::{snippets}/suggest_teacher/http-request.adoc[]
+
+.response
+
+include::{snippets}/suggest_teacher/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/suggest_teacher/response-fields.adoc[]
+
+Можно принять предложение о повышении зарплаты для преподавателя
+
+.request
+
+include::{snippets}/approve_teacher/http-request.adoc[]
+
+.response
+
+include::{snippets}/approve_teacher/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/approve_teacher/response-fields.adoc[]
+
+Можно отклонить предложение о повышении зарплаты для преподавателя
+
+.request
+
+include::{snippets}/decline_teacher/http-request.adoc[]
+
+.response
+
+include::{snippets}/decline_teacher/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/decline_teacher/response-fields.adoc[]

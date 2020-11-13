@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d001b8f-2ae0-4cc1-bb55-20cd1d916563" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework4.2/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.1/src/main/java/ru/itis/CreatorHtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.1/src/main/java/ru/itis/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.1/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works.2ndYear/homework3.2/src/ru/itis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework3.2/src/ru/itis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works.2ndYear/homework4.2/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework4.2/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works.2ndYear/homework4.2/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.2/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.2/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.2/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works.2ndYear/homework7.2/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works/homework14/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works/homework14/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works/homework14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works/homework14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works/homework14/homework14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works/homework14/homework14.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works/homework25/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works/homework25/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Home works/homework25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Home works/homework25/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources/3ef884ce-5f62-4a12-aff1-ebf75c804f39.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources/3ef884ce-5f62-4a12-aff1-ebf75c804f39/storage_v2/_src_/database/java_lab.8JlY3Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources/3ef884ce-5f62-4a12-aff1-ebf75c804f39/storage_v2/_src_/database/java_lab.8JlY3Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources/3ef884ce-5f62-4a12-aff1-ebf75c804f39/storage_v2/_src_/database/java_lab.8JlY3Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/dataSources/3ef884ce-5f62-4a12-aff1-ebf75c804f39/storage_v2/_src_/database/java_lab.8JlY3Q/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/app3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/app3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/src/ru/itis/ImageDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/src/ru/itis/ImageDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/src/ru/itis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/src/ru/itis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apps/app3/src/ru/itis/ThreadForDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apps/app3/src/ru/itis/ThreadForDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/src/ru/itis/Fraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/src/ru/itis/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test1/test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/src/ru/itis/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/test2/test2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k71jrKVLINZ8Bb1fbhANxHIHZo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d001b8f-2ae0-4cc1-bb55-20cd1d916563" name="Default Changelist" comment="" />
+      <created>1605036955239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605036955239</updated>
+      <workItem from="1605036956529" duration="1794000" />
+      <workItem from="1605039085339" duration="152000" />
+      <workItem from="1605039268795" duration="650000" />
+      <workItem from="1605072953315" duration="595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1605037303111">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1605037303111" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605039090963">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1605039090963" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1605070291499">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605070291499" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1605070291498">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605070291498" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1605070291498">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605070291498" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1605070291498">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605070291498" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1605070443359">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605070443359" />
+  </component>
+</project>
