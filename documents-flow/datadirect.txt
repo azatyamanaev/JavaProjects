@@ -1,0 +1,3 @@
+/home/monitor/Pictures/3d-cube-background-4k-yo.jpg .confirmation
+/home/monitor/Pictures/OOGVxMotxsc.jpg .confirmation
+/home/monitor/Pictures/observer.png .confirmation
