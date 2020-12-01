@@ -1,0 +1,82 @@
+db.courses.insert({
+    description: "Курс по разработке на Java",
+    title: "JavaLab",
+    count: 2,
+    likeability: "high",
+    comment: "very useful course"
+});
+
+db.courses.insert({
+    description: "Курс по Базам данных",
+    title: "DataLab",
+    state: "Draft",
+    count: 2
+});
+
+
+db.courses.insert({
+    title: "Физика",
+    state: "Draft",
+    count: 3,
+    difficulty: "medium"
+});
+
+
+db.institutes.insert({
+    name: "ИТИС КФУ",
+    city: "Kazan",
+    address: "Кремлевская, 35"
+});
+
+db.institutes.insert({
+    name: "Институт физики КФУ",
+    city: "Kazan",
+    address: "Кремлевская, 16А",
+    students_count: 2000
+});
+
+db.teachers.insert({
+    firstName: "Марсель",
+    lastName: "Сидиков",
+    position: "преподаватель, б.с.",
+    age: 26,
+    bonus: 0,
+    current: "Suggested"
+});
+
+db.teachers.insert({
+    firstName: "Алина",
+    lastName: "Мангушева",
+    position: "доцент, к.н.",
+    age: 25,
+    rating: 4.1
+});
+
+db.teachers.insert({
+    firstName: "Самигулла",
+    lastName: "Халиуллин",
+    patronymic: "Гарифуллович",
+    age: 57,
+    rating: 4.1,
+    courses: ["probavility theory", "math"]
+});
+
+db.students.insert({
+    firstName: "Дария",
+    lastName: "Шагиева",
+    state: "Undergraduate",
+    age: 19,
+    year: 3,
+    studentGroup: "group 11-806",
+    scholarship: "Normal",
+    hobbies: ["drawing", "swimming"]
+});
+
+db.students.insert({
+    firstName: "Эмин",
+    lastName: "Алиев",
+    age: 19,
+    studentGroup: "group 11-806",
+    scholarship: "Normal",
+    average_mark: 59
+});
