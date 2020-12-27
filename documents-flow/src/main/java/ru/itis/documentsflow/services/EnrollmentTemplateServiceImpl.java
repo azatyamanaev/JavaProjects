@@ -21,23 +21,26 @@ public class EnrollmentTemplateServiceImpl implements TemplateService{
             dir.mkdir();
         }
         dest = dir.getAbsolutePath() + File.separator + "EnrollmentPdf" + new Random().nextInt(1000000000);
-        File file = new File("/home/monitor/Documents/university/ex_pdf.pdf");
         try {
-            PDDocument doc = PDDocument.load(file);
-            PDPage page = doc.getPage(0);
+            PDDocument doc = new PDDocument();
+            PDPage page = new PDPage();
+            doc.addPage(page);
             PDPageContentStream contentStream = new PDPageContentStream(doc, page);
             contentStream.beginText();
-            contentStream.newLineAtOffset(20, 500);
-            System.out.println("s");
-            String text = "hello";
+            contentStream.setFont(PDType1Font.TIMES_BOLD, 16);
+            contentStream.newLineAtOffset(250, 600);
+            String text = "Inquiry";
             contentStream.showText(text);
-            System.out.println("s");
             contentStream.endText();
-            System.out.println("s");
+            contentStream.beginText();
+            contentStream.setFont(PDType1Font.TIMES_ROMAN, 14);
+            contentStream.newLineAtOffset(50, 550);
+            text = "Given to " + name + " " + lastName + " that he is currently working in xxx organization.";
+            contentStream.showText(text);
+            contentStream.endText();
             contentStream.close();
             doc.save(dest);
             doc.close();
-            System.out.println("ssss");
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
