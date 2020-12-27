@@ -9,5 +9,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import ru.itis.mongohateoas.models.Teacher;
 
 @RepositoryRestResource
-public interface TeachersRepository extends PagingAndSortingRepository<Teacher, Long> {
+public interface TeachersRepository extends PagingAndSortingRepository<Teacher, String> {
 }

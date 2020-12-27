@@ -13,7 +13,7 @@ import ru.itis.mongohateoas.models.Course;
 import java.util.List;
 
 @RepositoryRestResource
-public interface CoursesRepository extends PagingAndSortingRepository<Course, Long> {
+public interface CoursesRepository extends PagingAndSortingRepository<Course, String> {
     @RestResource(path = "custom", rel = "custom")
     @Query(value = "{state: Published, count: 2}")
     Page<Course> findCustom(Pageable pageable);

@@ -28,4 +28,20 @@ public class Student {
     @DBRef
     private List<Course> courses;
     private String state;
+
+    public void enroll() {
+        if (this.state.equals("Enrollee") || this.state.equals("Expelled")) {
+            this.state = "Undergraduate";
+        } else if (this.state.equals("Graduate") || this.state.equals("Undergraduate")) {
+            throw new IllegalStateException();
+        }
+    }
+
+    public void expell() {
+        if (this.state.equals("Undergraduate")) {
+            this.state = "Expelled";
+        } else if (this.state.equals("Graduate") || this.state.equals("Expelled") || this.state.equals("Enrollee")) {
+            throw new IllegalStateException();
+        }
+    }
 }

@@ -7,7 +7,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RestResource;
 import ru.itis.mongohateoas.models.Student;
 
-public interface StudentsRepository extends PagingAndSortingRepository<Student, Long> {
+public interface StudentsRepository extends PagingAndSortingRepository<Student, String> {
     @RestResource(path = "expelled", rel = "expelled")
     @Query(value = "{state: Expelled}")
     Page<Student> findAllExpelledStudents(Pageable pageable);

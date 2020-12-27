@@ -11,7 +11,7 @@ import ru.itis.mongohateoas.models.Institute;
 import java.util.List;
 
 @RepositoryRestResource
-public interface InstitutesRepository extends PagingAndSortingRepository<Institute, Long> {
+public interface InstitutesRepository extends PagingAndSortingRepository<Institute, String> {
     @RestResource(path = "byCity", rel = "city")
     @Query(value = "{city: ?0}")
     List<Institute> findAllByCity(@Param("city") String city, Pageable pageable);
