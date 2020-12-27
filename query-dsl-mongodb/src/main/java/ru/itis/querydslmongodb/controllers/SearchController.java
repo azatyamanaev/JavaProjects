@@ -6,7 +6,7 @@ import org.springframework.data.querydsl.binding.QuerydslPredicate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.itis.querydslmongodb.dto.UserDto;
+import ru.itis.querydslmongodb.dto.StudentDto;
 import ru.itis.querydslmongodb.models.Course;
 import ru.itis.querydslmongodb.models.Student;
 import ru.itis.querydslmongodb.repositories.AccountsRepository;
@@ -21,13 +21,14 @@ public class SearchController {
     private AccountsRepository accountsRepository;
 
     @GetMapping("/accounts/search")
-    public ResponseEntity<List<UserDto>> searchByPredicate(@QuerydslPredicate(root = Student.class, bindings = AccountsRepository.class) Predicate predicate) {
+    public ResponseEntity<List<StudentDto>> searchByPredicate(@QuerydslPredicate(root = Student.class, bindings = AccountsRepository.class) Predicate predicate) {
         return ResponseEntity.ok(
                 StreamSupport.stream(accountsRepository.findAll(predicate).spliterator(), true)
                         .map(user ->
-                                UserDto.builder()
+                                StudentDto.builder()
                                         .firstName(user.getFirstName())
                                         .lastName(user.getLastName())
-                                        .courseNames(user.getCourses().stream().map(Course::getTitle).collect(Collectors.toList()));
+                                        .courseNames(user.getCourses().stream().map(Course::getTitle).collect(Collectors.toList()))
+                                        .build()).collect(Collectors.toList()));
     }
 }
