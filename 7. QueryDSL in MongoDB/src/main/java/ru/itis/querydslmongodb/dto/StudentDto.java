@@ -15,4 +15,5 @@ public class StudentDto {
     private String firstName;
     private String lastName;
     private List<String> courseNames;
+    private String institute;
 }

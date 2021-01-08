@@ -29,6 +29,7 @@ public class SearchController {
                                         .firstName(student.getFirstName())
                                         .lastName(student.getLastName())
                                         .courseNames(student.getCourses().stream().map(Course::getTitle).collect(Collectors.toList()))
+                                        .institute(student.getStudentGroup().getInstitute().getName())
                                         .build()).collect(Collectors.toList()));
     }
 }
