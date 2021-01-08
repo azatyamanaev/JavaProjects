@@ -21,14 +21,14 @@ public class SearchController {
     private AccountsRepository accountsRepository;
 
     @GetMapping("/accounts/search")
-    public ResponseEntity<List<StudentDto>> searchByPredicate(@QuerydslPredicate(root = Student.class, bindings = AccountsRepository.class) Predicate predicate) {
+    public ResponseEntity<List<StudentDto>> searchByPredicate(@QuerydslPredicate(root = Student.class) Predicate predicate) {
         return ResponseEntity.ok(
                 StreamSupport.stream(accountsRepository.findAll(predicate).spliterator(), true)
-                        .map(user ->
+                        .map(student ->
                                 StudentDto.builder()
-                                        .firstName(user.getFirstName())
-                                        .lastName(user.getLastName())
-                                        .courseNames(user.getCourses().stream().map(Course::getTitle).collect(Collectors.toList()))
+                                        .firstName(student.getFirstName())
+                                        .lastName(student.getLastName())
+                                        .courseNames(student.getCourses().stream().map(Course::getTitle).collect(Collectors.toList()))
                                         .build()).collect(Collectors.toList()));
     }
 }
