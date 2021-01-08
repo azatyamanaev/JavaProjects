@@ -1,8 +1,8 @@
 package ru.itis.querydslmongodb.repositories;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import ru.itis.querydslmongodb.models.Student;
 
-public interface StudentsRepository extends MongoRepository<Student, Long> {
+public interface StudentsRepository extends MongoRepository<Student, ObjectId> {
 }

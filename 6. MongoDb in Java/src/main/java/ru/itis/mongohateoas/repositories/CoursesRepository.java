@@ -1,5 +1,6 @@
 package ru.itis.mongohateoas.repositories;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.Query;
@@ -13,7 +14,7 @@ import ru.itis.mongohateoas.models.Course;
 import java.util.List;
 
 @RepositoryRestResource
-public interface CoursesRepository extends PagingAndSortingRepository<Course, String> {
+public interface CoursesRepository extends PagingAndSortingRepository<Course, ObjectId> {
     @RestResource(path = "custom", rel = "custom")
     @Query(value = "{state: Published, count: 2}")
     Page<Course> findCustom(Pageable pageable);

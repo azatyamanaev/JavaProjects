@@ -12,13 +12,7 @@ import ru.itis.querydslmongodb.repositories.StudentsRepository;
 public class QueryDslMongodbApplication {
 
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(RepositoriesConfig.class);
-        StudentsRepository studentsRepository = context.getBean(StudentsRepository.class);
-        CoursesRepository coursesRepository = context.getBean(CoursesRepository.class);
-        //SpringApplication.run(QueryDslMongodbApplication.class, args);
-
-        studentsRepository.findAll().forEach(System.out::println);
-        coursesRepository.findAll().forEach(System.out::println);
+        SpringApplication.run(QueryDslMongodbApplication.class, args);
     }
 
 }
