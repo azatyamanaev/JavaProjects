@@ -1,0 +1,69 @@
+GET http://localhost:8080/movies
+
+###
+
+GET http://localhost:8080/people
+
+###
+
+PUT http://localhost:8080/movies
+Content-Type: application/json; charset=utf-8
+
+{
+  "title": "Aeon Flux",
+  "description": "Reactive is the new cool"
+
+}
+
+###
+
+DELETE http://localhost:8080/movies/0
+
+###
+
+PUT http://localhost:8080/people
+Content-Type: application/json; charset=utf-8
+
+{"id":28,"name":"Actor 2","age":25}
+
+###
+
+PUT http://localhost:8080/people
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "Rachel",
+  "age": 53
+}
+
+###
+
+DELETE http://localhost:8080/people/17
+
+###
+
+PUT http://localhost:8080/movies
+Content-Type: application/json; charset=utf-8
+
+{
+  "id": 4,
+  "title": "Star wars",
+  "description": "sci-fi movie",
+  "directors": [{"name": "Rachel", "age":  53}],
+  "actors": [{"name": "Adam", "age": 25}, {"name": "Taylor", "age": 21}, {"name": "Smith", "age": 26}, {"name": "Ann", "age": 29}, {"name": "Actor 1", "age": 30}]
+
+}
+
+###
+
+PUT http://localhost:8080/movies
+Content-Type: application/json; charset=utf-8
+
+{
+  "id": 0,
+  "title": "Avengers",
+  "description": "superhero movie",
+  "directors": [{"id": 39, "name": "Steven", "age":  47}],
+  "actors": [{"name": "Actor 5", "age": 25}, {"name": "Actor 6", "age": 21}, {"name": "Actor 7", "age": 26}, {"name": "Actor 8", "age": 29}, {"name": "Actor 9", "age": 30}]
+
+}
